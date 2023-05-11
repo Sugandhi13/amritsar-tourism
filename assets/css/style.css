@@ -1,48 +1,103 @@
-ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
+body {
+    font-family: Verdana, sans-serif;
+}
+
+ /* headings and logo */
+
+ h1, h2 {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     color: #252525;
+ }
+
+ #logo {
+    float: left;
+    color:#DAA520;
+    font-size: 280%;
+    margin-left: 30px;
+ }
+
+ /* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
     text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: Lato;
+    color: #DAA520;
 }
 
-li {
+#menu a:hover {
+    border-top: 1px dotted #DAA520;
+    border-bottom: 2px dotted #DAA520;
+}
+
+.current-page {
+    border-top: 1px solid #DAA520;
+    border-bottom: 2px solid #DAA520;;
+}
+
+/* Main image and cover text */
+
+#main-image-outer {
+    height:600px;
+    width:100%;
+    overflow: hidden;
+    position: center;
+}
+
+#main-image {
+    background: url("assets/images/GoldenTemple.jpg");
+}
+
+/* Creates the level of zoom for hero image */
+@keyframes main-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
     display: inline;
 }
 
-nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-}
-
-img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
-
-figure {
-    margin-top: 40px;
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }

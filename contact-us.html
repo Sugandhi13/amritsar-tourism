@@ -25,48 +25,48 @@
         </nav>
     </header>
 
-    <section>
-        <section class="form-section">
-            <form method="POST" action="confirmation.html" class="contact-us">
-                <h2>Contact Us</h2>
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" class="text-input" required>
-        
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" class="text-input" required>
-        
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" class="text-input" required>
+    <section id="contact">
+        <form method="GET" action="/confirmation.html" class="contactus-form">
+            <h2>Contact Us</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+    
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+    
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
 
-                <label for="phone">Phone Number</label>
-                <input type="phone" id="phone" name="phone_number" class="text-input" required>
-        
-                <input class="submit-button" type="submit">
-            </form>
-        </section>
-        
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone_number" class="text-input" required>
+
+            <label for="question">Ask any query about Amritsar?</label>
+            <input type="question" id="question" name="question" class="text-input" required>
+    
+            <input class="submit-button" type="submit">
+        </form>
     </section>
     
     <footer>
         <ul class="social-networks">
             <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener">
-                    facebook
+                    <img src="assets/images/facebook.png" alt="Facebook" id="social-media-icon">
                 </a>
             </li>
             <li>
                 <a href="https://www.twitter.com" target="_blank" rel="noopener">
-                    twitter
+                    <img src="assets/images/twitter.png" alt="Twitter" id="social-media-icon">
                 </a>
             </li>
             <li>
                 <a href="https://www.youtube.com" target="_blank" rel="noopener">
-                    youtube
+                    <img src="assets/images/youtube.png" alt="YouTube" id="social-media-icon">
                 </a>
             </li>
             <li>
                 <a href="https://www.instagram.com" target="_blank" rel="noopener">
-                    instagram
+                    <img src="assets/images/instagram.png" alt="Instagram" id="social-media-icon">
                 </a>
             </li>
         </ul>

@@ -66,10 +66,18 @@ body {
 }
 
 #main-image {
-    background: url("assets/images/GoldenTemple.jpg");
+    height: 600px;
+    width: 100%;
+    background: url("../images/GoldenTemple.jpg") center;
+    background-size: 100% 100%;
+
+    /* Animates zoom effect on loading the page */
+    animation-name: main-image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
-/* Creates the level of zoom for hero image */
+/* Creates the level of zoom for main image */
 @keyframes main-image-zoom {
     from {
         transform: scale(1);
@@ -80,10 +88,91 @@ body {
     }
 }
 
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 30%;
+    height: 50px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    background-color: #DAA520;
+
+    top: 600px;
+    text-align: center;
+
+    position: absolute;
+
+}
+
+/* Explore the city */
+
+#explore-city {
+    height: 500px;
+}
+
+#why-this-city {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 300%;
+}
+
+#left-history {
+    padding-top: 30px;
+    width: 45%;
+    float: left;
+}
+
+#right-culture {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+}
+
+hr {
+    border-top: 1px double #DAA520;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-history-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.right-culture-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-culture-heading p {
+    text-align: justify;
+}
+
+.right-culture-heading h2 {
+    text-align: right;
+}
+
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 100px;
+    background-color: #DAA520;
 }
 
 .social-networks {
@@ -92,12 +181,101 @@ footer {
 }
 
 .social-networks li {
-    display: inline;
+    display: inline-flex;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+#social-media-icon {
+    height: 35px;
+    width: 35px;
+    padding-top: 15%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Attractions */
+
+#city-attractions {
+    height: 1000px;
+}
+
+#photo {
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 5px;
+    width:75%
+}
+
+#photo img {
+    width: 100%;
+}
+
+/* Contact Us */
+
+#contact {
+    height: 830px;
+}
+
+.contactus-form {
+    margin: 150px 0 0 15%;
+    color: #fff;
+    background-color: #DAA520;
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+
+}
+
+.contactus-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    top: 5px;
+    bottom: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    margin: 5px 0 20px 0;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #fafafa;
+    color: #DAA520;
+    display: block;
+
+}
+
+.submit-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* Confirmation */
+
+#confirmation {
+    height: 830px;
+}
+
+#message {
+    margin: 300px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 200%;
 }

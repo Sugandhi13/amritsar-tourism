@@ -8,12 +8,17 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+header {
+    height: 80px;
+    background-color: antiquewhite;
+}
+
 /* headings and logo */
 h1,h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #DAA520;
 }
 
 #logo {
@@ -88,7 +93,7 @@ h1,h2 {
     }
 }
 
- #cover-text, #cover-text h2 {
+#cover-text, #cover-text h2 {
     color: #ffffff;
 }
 
@@ -171,8 +176,8 @@ hr {
 /* Footer */
 
 footer {
-    height: 100px;
-    background-color: #DAA520;
+    height: 80px;
+    background-color:antiquewhite;
 }
 
 .social-networks {
@@ -192,75 +197,51 @@ footer {
    
 }
 
-/* Attractions */.
+/* Attractions */
 
- #main-headings #headings {
-
-    color: #DAA520;
-    margin-left: 30px;
-    
-    } 
-
-#photo {
-  
-    column-count: 4;
-    column-gap:0;
-    width: 100%;
-    display:inline-block;
-    object-fit:cover;
+#city-attractions {
+    height: 1200px;
 }
 
-#photo img {
-    width: 100%;
-    
-}
+#city-attractions-heading {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 300%;
+} 
 
-#photo-history {
+table {
     column-count: 3;
-    column-gap: 0;
-    width: 100%; 
-   display:inline-block;
-   object-fit:cover;
-}
-
-#photo-history img {
     width: 100%;
+    padding: 5px;
 }
 
-#photo-tourist {
-
-        column-count:3;
-        column-gap:0;
-        width: 100%;
-        display: inline-block;
-
-    }
-
-#photo-tourist img {
-    width:100%;
+table img {
+    width: 100%;
+    height: 350px;
 }
 
-#photo-food {
-       column-count: 4;
-        column-gap:5px;
-        width: 100%;
-        display: inline-block;
-
+tr td{
+    padding: 5px 5px 0px 5px;
 }
 
-#photo-food-img {
-    width:100%;
-    height:10%
+#attraction-text {
+    padding: 0px 5px 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    color: #ffffff;
+    background-color: #DAA520;
 }
 
 /* Contact Us */
 
 #contact {
-    height: 830px;
+    height: 770px;
 }
 
 .contactus-form {
-    margin: 150px 0 0 15%;
+    margin: 100px 0 0 15%;
     color: #fff;
     background-color: #DAA520;
     max-width: 400px;
@@ -312,11 +293,11 @@ footer {
 /* Confirmation */
 
 #confirmation {
-    height: 830px;
+    height: 770px;
 }
 
 #message {
-    padding-top: 100px;
+    padding-top: 15%;
     text-align: center;
     font-size: 200%;
 }

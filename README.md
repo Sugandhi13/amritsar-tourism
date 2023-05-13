@@ -45,8 +45,8 @@ Amritsar City is also called as Golden City. Hence, color them of my website is 
 
 ### Languages Used
 
-  - HTML5
-  - CSS3
+- HTML5
+- CSS3
 
 ### Navigation
 
@@ -96,7 +96,7 @@ This page allows provide an opportunity to the user to get in contact with the g
 
 ### Confirmation Page
 
-The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation that there information has been submitted. 
+The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation that there information has been submitted.
 
 ![Confirmation](assets/images/confirmation.jpg)
 
@@ -142,7 +142,7 @@ The page achieved great performance on mobile and desktop.
 
 # Unfixed Bugs
 
-I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop borwsers but have issues with alignments on other media devices. 
+I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop borwsers but have issues with alignments on other media devices.
 
 I will try to improve further on this in coming days and considering it as a challenge to handle.
 

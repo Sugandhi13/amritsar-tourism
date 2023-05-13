@@ -206,24 +206,24 @@ footer {
 
 /* Attractions */
 
-.city-attractions {
-    height: 1200px;
-}
-
 #city-attractions-heading {
     margin: 20px 0;
     text-align: center;
     font-size: 300%;
 }
 
+.city-attractions {
+    height: 1200px;
+}
+
+.city-attractions img {
+    width: 100%;
+    height: 350px;
+}
+
 table {
     width: 100%;
     padding: 5px;
-}
-
-table img {
-    width: 100%;
-    height: 350px;
 }
 
 tr td {

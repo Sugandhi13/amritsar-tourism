@@ -40,7 +40,7 @@ Amritsar City is also called as Golden City. Hence, color them of my website is 
 
 In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are located under the logo on small screens. This section is same on all pages of website.
 
-![Navigation](assets/images/Navigation.jpg)
+![Navigation](assets/images/navigation.jpg)
 
 ### Footer
 
@@ -54,7 +54,7 @@ The footer section contains the links to social media sites (Facebook, Twitter, 
 
 A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
 
-![Main-Image](assets/images/main-image.jpg)
+![Main-Image](assets/images/mainimage.jpg)
 
 ### Home Page
 
@@ -67,20 +67,20 @@ This page provides the information a user require to know some basic facts about
 - **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
 - **Shopping** : This section has information on all kind of shopping options available in the city.
 
-![About-City](assets/images/why-amritsar.jpg)
+![About-City](assets/images/whyamritsar.jpg)
 
 ### Attractions Page
 
 The attractions page provides images of top attactions in amritsar, some of which we have also talked about on Home Page. I thought it was important to let people have some idea about how these places looks and feel to make an informed decision as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
 
-![Attractions-1](assets/images/attractions-1.jpg)
-![Attractions-2](assets/images/attractions-2.jpg)
+![Attractions-1](assets/images/attractions1.jpg)
+![Attractions-2](assets/images/attractions2.jpg)
 
 ### Contact Us Page
 
 This page allows provide an opportunity to the user to get in contact with the group if they have any further queries about visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate palces of city without leaving the website.
 
-![Contact-Us](assets/images/contact-us.jpg)
+![Contact-Us](assets/images/contactus.jpg)
 
 ### Confirmation Page
 
@@ -103,13 +103,14 @@ The Confirmation page has been created to Congratulate the use to reach us for f
 # Deployment
 
 The site is deployed to GitHub pages. The steps to deploy are as follows:
+
 - In the GitHub repository, select the amritsar-tourism project from left pane 'Top Repositories' section
 - Click on Settings tab in navigation menu.
 - Select the 'Pages' tab in the 'Code and Automation' section.
 - From the Build and deployment section, go to source and select 'Deploy from a branch' in drop-down menu.
 - Next select the 'Main' branch under Branch drow-down menu.
 - Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link for the site can be found here - https://sugandhi13.github.io/amritsar-tourism/
+- The live link for the site can be found here - [/sugandhi13.github.io/amritsar-tourism] (<https://sugandhi13.github.io/amritsar-tourism/>)
 
 # Credits
 

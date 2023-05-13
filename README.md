@@ -4,25 +4,36 @@ Amritsar Tourism project is developed with idea of creating a website for people
 
 # Table of contents
 
+- [Amritsar Tourism](#amritsar-tourism)
+- [Table of contents](#table-of-contents)
 - [Design](#design)
-- Features
-  - Languages Used
-  - Navigation
-  - Home Page Hero Image
-  - Home Page
-  - Footer
-  - Buddhism and Meditation
-  - Get in Touch
-- Testing
-- Validator Testing
-- Unfixed Bugs
-- Libraries & Programs Used
-- Deployment
-- Credits
-- Content
-- Media
+    - [Text \& Background color](#text--background-color)
+- [Features](#features)
+  - [Common Features](#common-features)
+    - [Languages Used](#languages-used)
+    - [Navigation](#navigation)
+    - [Footer](#footer)
+  - [Home Page](#home-page)
+    - [Main Image](#main-image)
+    - [Home Page](#home-page-1)
+    - [Attractions Page](#attractions-page)
+    - [Contact Us Page](#contact-us-page)
+    - [Confirmation Page](#confirmation-page)
+- [Testing](#testing)
+- [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Lighthouse](#lighthouse)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Libraries \& Programs Used](#libraries--programs-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Content](#content)
+- [Media](#media)
+    - [Images](#images)
+    - [Google Map](#google-map)
 
-# Design 
+# Design
 
 ### Text & Background color
 
@@ -170,9 +181,10 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 # Content
 
 Following websites have been referred to generate the content on Home page along with some sentences included/modified by me to best fit in websites context.
-  - [punjabtourism.punjab.gov.in](https://punjabtourism.punjab.gov.in/destination-amritsar.php)
-  - [wikipedia.org](https://en.wikipedia.org/wiki/Amritsar)
-  - [indiahotels.com](http://www.indiahotels.com/amritsar/amritsar-culture.html)
+
+- [punjabtourism.punjab.gov.in](https://punjabtourism.punjab.gov.in/destination-amritsar.php)
+- [wikipedia.org](https://en.wikipedia.org/wiki/Amritsar)
+- [indiahotels.com](http://www.indiahotels.com/amritsar/amritsar-culture.html)
 
 # Media
 
@@ -181,7 +193,7 @@ Following websites have been referred to generate the content on Home page along
 Various websites are referred to collect images used in this website. Original source links can be found below.
 
 - Main Image - [holidify.com](https://www.holidify.com/places/amritsar/sightseeing-and-things-to-do.html)
-- Gobindgarh Fort Image - [holidify.com]https://www.holidify.com/places/amritsar/gobindgarh-fort-sightseeing-120918.html
+- Gobindgarh Fort Image - [holidify.com](https://www.holidify.com/places/amritsar/gobindgarh-fort-sightseeing-120918.html)
 - Confirmation Page Image - [historypak.com](https://historypak.com/punjabi-culture-2/)
 - Ram Tirath Image - [ffo.gov.in](https://ffo.gov.in/locations/location-information/69)
 - Maharaja Ranjit Singh Muesum Image - [mouthshut.com](https://www.mouthshut.com/product-reviews/Maharaja-Ranjit-Singh-Museum-Amritsar-Photos-925078676)

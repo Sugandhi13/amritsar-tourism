@@ -119,6 +119,7 @@ Some improvements are done on different HTML pages after testing them on W3C Val
 ### HTML
 
 No errors were returned when passing through the official W3C validator.
+
 ![HTML](assets/images/w3cvalidatorresults.jpg)
 
 ### CSS
@@ -133,11 +134,11 @@ The page achieved great performance on mobile and desktop.
 
 - **Desktop**:
   
-![Desktop](assets/images/lighthousereportdesktop.jpg)
+ensp ![Desktop](assets/images/lighthousereportdesktop.jpg)
 
 - **Mobile**:
   
-![Mobile](assets/images/lighthousereportmobile.jpg)
+ensp ![Mobile](assets/images/lighthousereportmobile.jpg)
 
 # Unfixed Bugs
 

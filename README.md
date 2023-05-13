@@ -3,7 +3,8 @@
 Amritsar Tourism project is developed with idea of creating a website for people who are interested in Visiting Amritsar for Vacation or Explore the city and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist attractions and an opportunity to get in touch to request further information.
 
 # Table of contents
-- Design
+
+- [Design](#design)
 - Features
   - Languages Used
   - Navigation
@@ -21,7 +22,7 @@ Amritsar Tourism project is developed with idea of creating a website for people
 - Content
 - Media
 
-# Design
+# Design 
 
 ### Text & Background color
 
@@ -120,16 +121,18 @@ No errors were found when passing through the official W3C CSS (Jigsaw) validato
 The page achieved great performance on mobile and desktop.
 
 - **Desktop**:
+  
 ![Desktop](assets/images/lighthousereportdesktop.jpg)
 
 - **Mobile**:
+  
 ![Mobile](assets/images/lighthousereportmobile.jpg)
 
 # Unfixed Bugs
 
 I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop borwsers but have issues with alignments on other media devices. 
 
-I will try to improve further on this in coming days and considering it as a challenge to handle in near future.
+I will try to improve further on this in coming days and considering it as a challenge to handle.
 
 # Libraries & Programs Used
 
@@ -138,7 +141,7 @@ I will try to improve further on this in coming days and considering it as a cha
 - **Google Chrome Dev Tools**: To aid the initial styling for media queries and testing at various screen sizes
 - **Microsoft Edge**: Site testing on an alternative browser
 - **Snipping Tool**: To take screenshot for images of various results
-- **Am I Responsive**: Screenshots of the final project for the README file
+- **Am I Responsive**: To ensure website looks good on different devices
 - **W3C Validator**: To validate HMTL pages
 - **W3C CSS Validator**: To validte CSS
 
@@ -160,8 +163,34 @@ I have really enjoyed the Code Institute course up till now, and I am looking fo
 
 As a starting point I looked at the Coders Coffee and Love Running projects.
 
-From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
-From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
+- From the Coders Coffee Project, I got understanding of how to use Codeanywhere and GitHub to develop website.
+- From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
+- Wikipedia and Punjab Tourism websites, I have referred these website to create content on my website.
 
 # Content
+
+Following websites have been referred to generate the content on Home page along with some sentences included/modified by me to best fit in websites context.
+  - [punjabtourism.punjab.gov.in](https://punjabtourism.punjab.gov.in/destination-amritsar.php)
+  - [wikipedia.org](https://en.wikipedia.org/wiki/Amritsar)
+  - [indiahotels.com](http://www.indiahotels.com/amritsar/amritsar-culture.html)
+
 # Media
+
+### Images
+
+Various websites are referred to collect images used in this website. Original source links can be found below.
+
+- Main Image - [holidify.com](https://www.holidify.com/places/amritsar/sightseeing-and-things-to-do.html)
+- Gobindgarh Fort Image - [holidify.com]https://www.holidify.com/places/amritsar/gobindgarh-fort-sightseeing-120918.html
+- Confirmation Page Image - [historypak.com](https://historypak.com/punjabi-culture-2/)
+- Ram Tirath Image - [ffo.gov.in](https://ffo.gov.in/locations/location-information/69)
+- Maharaja Ranjit Singh Muesum Image - [mouthshut.com](https://www.mouthshut.com/product-reviews/Maharaja-Ranjit-Singh-Museum-Amritsar-Photos-925078676)
+- Sadda Pind Image - [googleusercontent.com](https://lh5.googleusercontent.com/p/AF1QipP6i60UYzdaQdFCtZVGE9TcA-7UzIQUYu8YjXRw=w600-h321-p-k-no)
+- Durgiana Temple Image - [googleusercontent.com](https://lh3.googleusercontent.com/proxy/kcFhudzDfjqLkTJbn-SGOG-50LFYbPNc3HZoYVAjLY442AyfMRXRlicCZyBHK2mlF8K9zPG-JafBTyOhTu4HWQjvv-cImvv_xTvNkBZXCQcbxGZ-grX7Vm-hq5WHR-n5a5ruIT740JhPa6k2sB_u2gobanyMOg=s680-w680-h510)
+- Some Images on Attractions Page - [fabhotels.com](https://www.fabhotels.com/blog/historical-places-in-amritsar/)
+
+### Google Map
+
+Google Map API is created and used from Google maps.
+
+- Google Map API - [maps.google.com](https://goo.gl/maps/g1H9qGUC1iNNKUoq8)

@@ -134,11 +134,11 @@ The page achieved great performance on mobile and desktop.
 
 - **Desktop**:
   
-ensp ![Desktop](assets/images/lighthousereportdesktop.jpg)
+  ![Desktop](assets/images/lighthousereportdesktop.jpg)
 
 - **Mobile**:
   
-ensp ![Mobile](assets/images/lighthousereportmobile.jpg)
+  ![Mobile](assets/images/lighthousereportmobile.jpg)
 
 # Unfixed Bugs
 

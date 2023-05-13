@@ -1,12 +1,25 @@
-# Amritsar Tourism
+# **Amritsar Tourism**
 
-Welcome,
+Amritsar Tourism project is developed with idea of creating a website for people who are interested in Visiting Amritsar for Vacation or Explore the city and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist attractions and an opportunity to get in touch to request further information.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
-
-## Codeanywhere Reminders
+# **Table of contents**
+- Design
+- Features
+  - Languages Used
+  - Navigation
+  - Home Page Hero Image
+  - Home Page
+  - Footer
+  - Buddhism and Meditation
+  - Get in Touch
+# Testing
+# Validator Testing
+# Unfixed Bugs
+# Libraries & Programs Used
+# Deployment
+# Credits
+# Content
+# Media
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 

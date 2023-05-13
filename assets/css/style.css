@@ -361,62 +361,211 @@ table {
         background-color: antiquewhite;
     }
 
+    #cover-text {
+        font-size: 100%;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        padding-top: 20px;
+        padding-left: 5px;
+
+        top: 500px;
+    }
+
     #explore-city {
-        width: 65%;
-        height: 1200px;
+        max-width: fit-content;
+        height: 750px;
         margin: 0 auto;
     }
 
-    #left-history,
-    #right-culture {
-        width: 100%;
+    #left-history {
+        max-width: fit-content;
         float: left;
-        padding: 0;
+    }
+
+    #right-culture {
+        max-width: fit-content;
+        float: right;
     }
 
     hr {
-        display: none;
+        border-top: 1px double #DAA520;
+        width: 100%;
     }
+
+     .left-history-heading {
+        width: 50%;
+        float: right;
+        line-height: 20px;
+
+    }
+
+    .right-culture-heading {
+        width: 50%;
+        float: left;
+        line-height: 20px;
+    }
+
+    .right-culture-heading h2 {
+        text-align: right;
+    } 
+
+    #contact {
+        height: 1150px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    #left-map {
+        padding-top: 0px; 
+        width: 100%;
+        float:none;
+    }
+
+    #right-form {
+        padding-top: 0px;
+        width: 50%;
+        float: none;
+    }
+
+    .contactus-map {
+        margin: 10px;
+        position: relative;
+        left: 15%;
+        padding: 0;
+    }
+
+    .contactus-form {
+        margin: 10px;
+        max-width: 100%;
+        position: relative;
+        left: 50%;
+        padding: 30px;
+    }
+
 }
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    header {
+        height: 120px;
+        background-color: antiquewhite;
+    }
+
     #menu {
-        clear: left;
         float: left;
         margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        line-height: 10px;
     }
 
     #cover-text {
-        left: 0px;
+        font-size: 100%;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        padding-top: 20px;
+        padding-left: 5px;
+
+        width: 45%;
+
+        top: 500px;
     }
 
     #explore-city {
-        width: 90%;
-        height: 1200px;
+        max-width: fit-content;
+        height: 850px;
         margin: 0 auto;
     }
 
-    .left-history-heading,
-    .right-culture-heading {
-        width: inherit;
+    #left-history {
+        max-width: fit-content;
+        float: left;
     }
 
-    .left-history-heading h2,
-    .right-culture-heading h2 {
+    #right-culture {
+        max-width: fit-content;
+        float: right;
+    }
+
+    hr {
+        border-top: 1px double #DAA520;
         width: 100%;
-        text-align: center;
     }
 
-    .left-history-heading p,
-    .right-culture-heading p {
+    .left-history-heading {
+        width: 50%;
+        float: right;
+        line-height: 20px;
+
+    }
+
+    .right-culture-heading {
+        width: 50%;
+        float: left;
+        line-height: 20px;
+    }
+
+    .right-culture-heading h2 {
+        text-align: right;
+    }
+
+    footer {
+        margin-top: 3%;
+        height: 60px;
+    }
+
+    .social-networks {
         text-align: center;
-        padding: 0 20px 0 20px;
+
+    }
+
+    .social-networks li {
+        display: inline-flex;
+    }
+
+    .social-networks img {
+        height: 25px;
+        width: 25px;
+        padding-top: 35%;
+        padding-left: 20px;
+    }
+
+    #left-map {
+        padding-top: 0px;
+        width: 100%;
+        float: none;
+    }
+
+    #contact {
+        height: 1100px;
+    }
+
+    #right-form {
+        padding-top: 0px;
+        width: 50%;
+        float: none;
+    }
+
+    .contactus-map {
+        margin: 10px;
+        position: relative;
+        left: 7%;
+        padding: 0;
+    }
+
+    .confirmation {
+        height: 650px;
     }
     
+    #message {
+        padding-top: 0px;
+        text-align: center;
+        font-size: 130%;
+    }
+
 }
 
 /* For small screens sizes from 800px wide and down */

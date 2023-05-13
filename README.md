@@ -1,8 +1,26 @@
-# **Amritsar Tourism**
+# Amritsar Tourism
 
 Amritsar Tourism project is developed with idea of creating a website for people who are interested in Visiting Amritsar for Vacation or Explore the city and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist attractions and an opportunity to get in touch to request further information.
 
-# **Table of contents**
+# Table of contents
+- Design
+- Features
+  - Languages Used
+  - Navigation
+  - Home Page Hero Image
+  - Home Page
+  - Footer
+  - Buddhism and Meditation
+  - Get in Touch
+- Testing
+- Validator Testing
+- Unfixed Bugs
+- Libraries & Programs Used
+- Deployment
+- Credits
+- Content
+- Media
+
 - Design
 - Features
   - Languages Used

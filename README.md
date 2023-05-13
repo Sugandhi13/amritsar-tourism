@@ -23,13 +23,13 @@ Amritsar Tourism project is developed with idea of creating a website for people
 
 # Design
 # Features
-## Languages Used
-## Navigation
-## Home Page Hero Image
-## Home Page
-## Footer
-## Buddhism and Meditation
-## Get in Touch
+### Languages Used
+### Navigation
+### Home Page Hero Image
+### Home Page
+### Footer
+### Buddhism and Meditation
+### Get in Touch
 # Testing
 # Validator Testing
 # Unfixed Bugs

@@ -213,7 +213,7 @@ footer {
 }
 
 .city-attractions {
-    height: 1200px;
+    height: 1250px;
 }
 
 .city-attractions img {
@@ -223,15 +223,22 @@ footer {
 
 table {
     width: 100%;
-    padding: 5px;
 }
 
-tr td {
-    padding: 5px 5px 0px 5px;
+.attractions {
+    padding: 0px;
 }
 
-#attraction-text {
-    padding: 0px 5px 5px 5px;
+.attractions td {
+    width: 33%;
+}
+
+.attractions-text {
+    padding: 0px;
+}
+
+.attractions-text td {
+    width: 33%;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

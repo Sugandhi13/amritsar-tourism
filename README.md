@@ -29,6 +29,8 @@ Amritsar City is also called as Golden City. Hence, color them of my website is 
 
 # Features
 
+## Common Features
+
 ### Languages Used
 
   - HTML5
@@ -36,19 +38,27 @@ Amritsar City is also called as Golden City. Hence, color them of my website is 
 
 ### Navigation
 
-In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are located under the logo on small screens.
+In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are located under the logo on small screens. This section is same on all pages of website.
 
 ![Navigation](assets/images/Navigation.jpg)
 
-### Home Page Hero Image
+### Footer
 
-A Hero Image (called as main-image in css file) is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
+The footer section contains the links to social media sites (Facebook, Twitter, YouTube and Instagram). This section is same on all pages of website.
 
-![Hero-Image](assets/images/main-image.jpg)
+![Footer](assets/images/footer.jpg)
+
+## Home Page
+
+### Main Image
+
+A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
+
+![Main-Image](assets/images/main-image.jpg)
 
 ### Home Page
 
-This page provides the information a user require to know some basic facts about Amritsar and its rich history and culture. Each of the section desribe a different fact about city a user should knnow to make informative decision. This have been broken into sections to make it easy to read. This section has been kept simple and to the point.
+This page provides the information a user require to know some basic facts about Amritsar and its rich history and culture. Each of the section desribe a different fact about city a user should know to make informative decision. This have been broken into sections to make it easy to read. This section has been kept simple and to the point.
 
 - **About City** : This section contains basic information about the Amritsar city like who and when this city was founded.
 - **Rich History** : This section desribe about rish historical aspect of the city.
@@ -57,16 +67,14 @@ This page provides the information a user require to know some basic facts about
 - **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
 - **Shopping** : This section has information on all kind of shopping options available in the city.
 
-![About-City](assets/images/main-image.jpg)
+![About-City](assets/images/why-amritsar.jpg)
 
-### Footer
+### Attractions Page
 
-The footer section contains the links to social media sites (Facebook, Twitter, YouTube and Instagram).
+### Contact Us Page
 
-![Footer](assets/images/footer.jpg)
+### Confirmation Page
 
-### Buddhism and Meditation
-### Get in Touch
 # Testing
 # Validator Testing
 # Unfixed Bugs

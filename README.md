@@ -89,16 +89,58 @@ The Confirmation page has been created to Congratulate the use to reach us for f
 ![Confirmation](assets/images/confirmation.jpg)
 
 # Testing
+
+The site has been tested on a variety of mobile devices as well as different web browsers (Chrome, Firefox, Safari) and all links, images and the contact form functioned as it should. All input fields of the contact form function correctly, and require the requested input fields before submitting.
+
+I personally tested the site extensively with Google Chrome dev tools to ensure the site works responsively not only on mobile devices but also on medium to larger screens.
+
+One of the biggest problems I encountered from the beginning handling css on different webpages. Then I took help from Love running project as well as w3school and stackoverflow websites (mentioned in credits as well).
+
+Another issue I faced is how to handle cover-text on main image when switching from desktop browsers to mobile browsers as well as alignments of navigation menu and footer elements. I've tried my best to fix these issues.
+
+Henceforth, applying media queries has been the biggest challenge during this project.
+
+Some improvements are done on different HTML pages after testing them on W3C Validator.
+
 # Validator Testing
+
+### HTML
+
+No errors were returned when passing through the official W3C validator.
+![HTML](assets/images/w3cvalidatorresults.jpg)
+
+### CSS
+
+No errors were found when passing through the official W3C CSS (Jigsaw) validator.
+
+![css](assets/images/cssvalidatorresults.jpg)
+
+### Lighthouse
+
+The page achieved great performance on mobile and desktop.
+
+- **Desktop**:
+![Desktop](assets/images/lighthousereportdesktop.jpg)
+
+- **Mobile**:
+![Mobile](assets/images/lighthousereportmobile.jpg)
+
 # Unfixed Bugs
+
+I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop borwsers but have issues with alignments on other media devices. 
+
+I will try to improve further on this in coming days and considering it as a challenge to handle in near future.
+
 # Libraries & Programs Used
 
 - **Github**: Store Repository
 - **Codeanywhere**: Create the html and css files
 - **Google Chrome Dev Tools**: To aid the initial styling for media queries and testing at various screen sizes
 - **Microsoft Edge**: Site testing on an alternative browser
-- **Font Awesome**: Social media icons
-- **Snipping Tool**: Screenshots of the final project for the README file
+- **Snipping Tool**: To take screenshot for images of various results
+- **Am I Responsive**: Screenshots of the final project for the README file
+- **W3C Validator**: To validate HMTL pages
+- **W3C CSS Validator**: To validte CSS
 
 # Deployment
 
@@ -110,7 +152,7 @@ The site is deployed to GitHub pages. The steps to deploy are as follows:
 - From the Build and deployment section, go to source and select 'Deploy from a branch' in drop-down menu.
 - Next select the 'Main' branch under Branch drow-down menu.
 - Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link for the site can be found here - [/sugandhi13.github.io/amritsar-tourism] (<https://sugandhi13.github.io/amritsar-tourism/>)
+- The live link for the site can be found here - [/sugandhi13.github.io/amritsar-tourism](https://sugandhi13.github.io/amritsar-tourism/)
 
 # Credits
 

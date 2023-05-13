@@ -92,6 +92,14 @@ The Confirmation page has been created to Congratulate the use to reach us for f
 # Validator Testing
 # Unfixed Bugs
 # Libraries & Programs Used
+
+-- **Github**: Store Repository
+-- **Codeanywhere**: Create the html and css files
+-- **Google Chrome Dev Tools**: To aid the initial styling for media queries and testing at various screen sizes
+-- **Microsoft Edge**: Site testing on an alternative browser
+-- **Font Awesome**: Social media icons
+-- **Snipping Tool**: Screenshots of the final project for the README file
+
 # Deployment
 # Credits
 # Content

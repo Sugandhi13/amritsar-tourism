@@ -71,9 +71,22 @@ This page provides the information a user require to know some basic facts about
 
 ### Attractions Page
 
+The attractions page provides images of top attactions in amritsar, some of which we have also talked about on Home Page. I thought it was important to let people have some idea about how these places looks and feel to make an informed decision as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
+
+![Attractions-1](assets/images/attractions-1.jpg)
+![Attractions-2](assets/images/attractions-2.jpg)
+
 ### Contact Us Page
 
+This page allows provide an opportunity to the user to get in contact with the group if they have any further queries about visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate palces of city without leaving the website.
+
+![Contact-Us](assets/images/contact-us.jpg)
+
 ### Confirmation Page
+
+The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation that there information has been submitted. 
+
+![Confirmation](assets/images/confirmation.jpg)
 
 # Testing
 # Validator Testing

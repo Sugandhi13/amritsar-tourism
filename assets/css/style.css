@@ -14,11 +14,17 @@ header {
 }
 
 /* headings and logo */
-h1,h2 {
+h1,
+h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #DAA520;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgoldenrod;
 }
 
 #logo {
@@ -35,7 +41,8 @@ h1,h2 {
     letter-spacing: 4px;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 75px;
 }
 
@@ -93,7 +100,8 @@ h1,h2 {
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
@@ -177,7 +185,7 @@ hr {
 
 footer {
     height: 80px;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 
 .social-networks {
@@ -194,7 +202,7 @@ footer {
     width: 35px;
     padding-top: 15%;
     padding-left: 100px;
-   
+
 }
 
 /* Attractions */
@@ -207,10 +215,9 @@ footer {
     margin: 20px 0;
     text-align: center;
     font-size: 300%;
-} 
+}
 
 table {
-    column-count: 3;
     width: 100%;
     padding: 5px;
 }
@@ -220,7 +227,7 @@ table img {
     height: 350px;
 }
 
-tr td{
+tr td {
     padding: 5px 5px 0px 5px;
 }
 
@@ -316,7 +323,7 @@ tr td{
     height: 500px;
     overflow: hidden;
     position: center;
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 #confirmation-image {
@@ -339,3 +346,111 @@ tr td{
     font-size: 200%;
 }
 
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    header {
+        height: 80px;
+        background-color: antiquewhite;
+    }
+
+    #explore-city {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-history,
+    #right-culture {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+
+    #explore-city {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-history-heading,
+    .right-culture-heading {
+        width: inherit;
+    }
+
+    .left-history-heading h2,
+    .right-culture-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-history-heading p,
+    .right-culture-heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #table {
+        column-count: 3;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+
+    header {
+        height: 100px;
+    }
+
+    #logo {
+        font-size: 200%;
+        padding-top: 10px;
+        margin-left: 70px;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 2px;
+        padding-top: 10px;
+        margin-left: 80px;
+    }
+
+    #logo,
+    #menu {
+        line-height: 30px;
+    }
+
+    #table {
+        column-count: 2;
+    }
+
+    #social-media-icon {
+        height: 25px;
+        width: 25px;
+        padding-top: 15%;
+        padding-left: 25px;
+
+    }
+}

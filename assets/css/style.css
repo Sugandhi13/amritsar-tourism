@@ -325,14 +325,12 @@ table {
 
 /* Confirmation */
 
-#confirmation-image-outer {
-    height: 500px;
-    overflow: hidden;
-    position: center;
-    padding-top: 50px;
+.confirmation {
+    height: 700px;
 }
 
 #confirmation-image {
+    margin: 50px 0px;
     height: 500px;
     background: url("../images/punjabculture.jpg") no-repeat center;
 
@@ -342,12 +340,8 @@ table {
     animation-fill-mode: forwards;
 }
 
-.confirmation {
-    height: 200px;
-}
-
 .confirmation h2 {
-    margin-top: 20px; 
+    margin-top: 15px; 
     text-align: center;
     font-size: 200%;
 }

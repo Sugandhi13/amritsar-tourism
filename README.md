@@ -93,14 +93,32 @@ The Confirmation page has been created to Congratulate the use to reach us for f
 # Unfixed Bugs
 # Libraries & Programs Used
 
--- **Github**: Store Repository
--- **Codeanywhere**: Create the html and css files
--- **Google Chrome Dev Tools**: To aid the initial styling for media queries and testing at various screen sizes
--- **Microsoft Edge**: Site testing on an alternative browser
--- **Font Awesome**: Social media icons
--- **Snipping Tool**: Screenshots of the final project for the README file
+- **Github**: Store Repository
+- **Codeanywhere**: Create the html and css files
+- **Google Chrome Dev Tools**: To aid the initial styling for media queries and testing at various screen sizes
+- **Microsoft Edge**: Site testing on an alternative browser
+- **Font Awesome**: Social media icons
+- **Snipping Tool**: Screenshots of the final project for the README file
 
 # Deployment
+
+The site is deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, select the amritsar-tourism project from left pane 'Top Repositories' section
+- Click on Settings tab in navigation menu.
+- Select the 'Pages' tab in the 'Code and Automation' section.
+- From the Build and deployment section, go to source and select 'Deploy from a branch' in drop-down menu.
+- Next select the 'Main' branch under Branch drow-down menu.
+- Once the 'Main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link for the site can be found here - https://sugandhi13.github.io/amritsar-tourism/
+
 # Credits
+
+I have really enjoyed the Code Institute course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I initially thought.
+
+As a starting point I looked at the Coders Coffee and Love Running projects.
+
+From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
+From the Coders Coffee Project, I took inspiration from in my 'What we do?' section.
+
 # Content
 # Media

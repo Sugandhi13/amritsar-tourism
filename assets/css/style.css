@@ -342,14 +342,19 @@ table {
     animation-fill-mode: forwards;
 }
 
-#confirmation {
-    height: 220px;
+.confirmation {
+    height: 200px;
+}
+
+.confirmation h2 {
+    margin-top: 20px; 
+    text-align: center;
+    font-size: 200%;
 }
 
 #message {
-    padding-top: 20px;
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 /* Media queries */

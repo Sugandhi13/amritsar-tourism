@@ -249,6 +249,10 @@ table {
 
 /* Contact Us */
 
+#contact {
+    height: 770px;
+}
+
 #left-map {
     padding-top: 30px;
     width: 50%;
@@ -259,10 +263,6 @@ table {
     padding-top: 30px;
     width: 50%;
     float: right;
-}
-
-#contact {
-    height: 770px;
 }
 
 .contactus-map {

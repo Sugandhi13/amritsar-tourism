@@ -41,8 +41,30 @@ In my website 3 navigation buttons (one per page) have been provided in the top 
 ![Navigation](assets/images/Navigation.jpg)
 
 ### Home Page Hero Image
+
+A Hero Image (called as main-image in css file) is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
+
+![Hero-Image](assets/images/main-image.jpg)
+
 ### Home Page
+
+This page provides the information a user require to know some basic facts about Amritsar and its rich history and culture. Each of the section desribe a different fact about city a user should knnow to make informative decision. This have been broken into sections to make it easy to read. This section has been kept simple and to the point.
+
+- **About City** : This section contains basic information about the Amritsar city like who and when this city was founded.
+- **Rich History** : This section desribe about rish historical aspect of the city.
+- **Relegious Significance** : This section inform the use about the relegiuos relevance of the city.
+- **Dynamic Culture** : This section explains about the rich punjabi culture this city has to offer.
+- **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
+- **Shopping** : This section has information on all kind of shopping options available in the city.
+
+![About-City](assets/images/main-image.jpg)
+
 ### Footer
+
+The footer section contains the links to social media sites (Facebook, Twitter, YouTube and Instagram).
+
+![Footer](assets/images/footer.jpg)
+
 ### Buddhism and Meditation
 ### Get in Touch
 # Testing
@@ -53,33 +75,3 @@ In my website 3 navigation buttons (one per page) have been provided in the top 
 # Credits
 # Content
 # Media
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!

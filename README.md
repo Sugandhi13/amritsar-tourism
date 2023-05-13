@@ -28,8 +28,18 @@ Amritsar Tourism project is developed with idea of creating a website for people
 Amritsar City is also called as Golden City. Hence, color them of my website is to based upon Gold and White colors contrast. We have choosen background color for header and footer 'antiquewhite' to provide some contrast from the main sections. All heading have Goldern (#DAA520) text color. Main website background is of white color with text color of 'darkgoldenrod'.
 
 # Features
+
 ### Languages Used
+
+  - HTML5
+  - CSS3
+
 ### Navigation
+
+In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are located under the logo on small screens.
+
+![Navigation](assets/images/Navigation.jpg)
+
 ### Home Page Hero Image
 ### Home Page
 ### Footer

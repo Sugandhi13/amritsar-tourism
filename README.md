@@ -22,6 +22,11 @@ Amritsar Tourism project is developed with idea of creating a website for people
 - Media
 
 # Design
+
+### Text & Background color
+
+Amritsar City is also called as Golden City. Hence, color them of my website is to based upon Gold and White colors contrast. We have choosen background color for header and footer 'antiquewhite' to provide some contrast from the main sections. All heading have Goldern (#DAA520) text color. Main website background is of white color with text color of 'darkgoldenrod'.
+
 # Features
 ### Languages Used
 ### Navigation

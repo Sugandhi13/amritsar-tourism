@@ -5,131 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
     <meta name="description" content="Amritsar Tourism website is for all who are interested to visit Amrtisar city.">
-    <meta name="keywords" content="amritsar, amritsar city, about amritsar, amritsar tourist, amritsar tourism, punjab, india,">
-
+    <meta name="keywords"
+        content="amritsar, amritsar city, about amritsar, amritsar tourist, amritsar tourism, punjab, india,">
+    <!-- Title -->
+    <title>Amritsar - The Holy City</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Amritsar - The Holy City</title>
 </head>
 
 <body>
-    <!-- Website logo and navigation menu -->
+    <!-- Header contains logo and navigation menu -->
     <header>
         <a href="index.html">
-            <h1 id= "logo">Amritsar Tourism</h1>
+            <h1 id="logo">Amritsar Tourism</h1>
         </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-brands fa-elementor"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="contact-us.html">Contact-Us</a></li>
+                <li><a href="index.html" class="current-page">Home</a></li>
                 <li><a href="attractions.html">Attractions</a></li>
-                <li><a class="current-page" href="index.html">Home</a></li>
+                <li><a href="contact-us.html">Contact-Us</a></li>
             </ul>
         </nav>
     </header>
-    
-    <!-- Main Image on Home Page -->
-    <section id="main-image-outer">
-        <div id="main-image"></div>
-        <div id="cover-text">
-            <h2>Amritsar - The Holy City</h2>
-        </div>
-    </section>
-    
-    <!-- Home Page headline question -->
-    <h1 id="why-this-city">Why Amritsar is a must visit place?</h1>
 
-    <!-- Information about Amrtisar -->
-    <section id="explore-city">
+    <!-- Main Content -->
+    <main>Main Content</main>
 
-        <!-- Left section containing information like City, History and relegious significance -->
-        <div id="left-history">
-            <div class="left-history-heading">
-                <h2>About City</h2>
-                <hr>
-                <p>
-                    Amritsar is founded in the fifteenth century by Guru Ram Das Ji, the fourth guru of the Sikhs.
-                    The heritage city of Amritsar is one of the most spiritually significant and historically
-                    rich cities of India.    
-                </p>
-            </div>
-            <div class="left-history-heading">
-                <h2>Rich History</h2>
-                <hr>
-                <p>
-                    Amritsar has witnessed one of the significant moments of India’s independence at the
-                    Jallianwala Bagh. On 13th April 1919, hundreds of Indian civilians were killed on the orders 
-                    of British Colonel Reginald Edward Harry Dyer.
-                </p>
-            </div>
-            <div class="left-history-heading">
-                <h2>Relegious Significance</h2>
-                <hr>
-                <p>
-                    Sikh’s prime place of worship, Golden Temple, is in Amritsar. It is the Sikhs holiest gurudwara.
-                    Go on a spiritual tour and feel blissful at the gurdwara, primarily known as Harmandir Sahib.
-                </p>
-            </div>
-        </div>
-
-        <!-- Right section containing information like Culture, Food and Shopping options in city -->
-        <div id="right-culture">
-            <div class="right-culture-heading">
-                <h2>Dynamic Culture</h2>
-                <hr>
-                <p>
-                    Amritsar is the largest city of Punjab. 
-                    The chief festivals celebrated at Amritsar comprise Vaisakhi, Lohri, Guru Parb and Holi.
-                    Bhangra and Gidda are the special dance forms performed by the folks of Amritsar.
-                </p>
-            </div>
-            <div class="right-culture-heading">
-                <h2>Tasty Food</h2>
-                <hr>
-                <p>
-                    A visit to Amritsar is incomplete without tasting the authentic cuisines of Punjab.
-                    Try Amritsari kulcha and lassi when in the city.
-                    Also, sarso ka saag tastes different in Punjab than it does in the rest of the country.
-                </p>
-            </div>
-            <div class="right-culture-heading">
-                <h2>Shopping</h2>
-                <hr>
-                <p>
-                    There are a lot of options for shopping in Amritsar that represent rich handicraft culture of Punjab like Phulkari dupattas, 
-                    Salwar Kamiz, Punjabi Jutti to traditional carpets etc.
-                </p>
-            </div>
-        </div>
-    </section>
-    
     <!-- Footer section with Social Media links -->
     <footer>
-        <ul class="social-networks">
+        <ul id="social-networks">
             <li>
-                <a href="https://www.facebook.com" target="_blank" rel="noopener">
-                    <i class="fa-brands fa-facebook"></i>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-square-facebook"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener">
+                <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
                     <i class="fa-brands fa-square-x-twitter"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener">
-                    <i class="fa-brands fa-youtube"></i>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)">
+                    <i class="fa-brands fa-square-youtube"></i>
                 </a>
             </li>
             <li>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our instagram page (opens in a new tab)">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
             </li>
         </ul>
     </footer>
+
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/aea545b4d1.js" crossorigin="anonymous"></script>
-    </body>
-    
-    </html>
+</body>
+
+</html>

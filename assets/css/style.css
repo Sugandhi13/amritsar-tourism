@@ -15,6 +15,15 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: Cambria, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #DAA520;
+}
+
 /*Header */
 header {
     background-color: antiquewhite;
@@ -33,20 +42,13 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: Cambria, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #DAA520;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -82,10 +84,64 @@ nav {
 
 /*Main Content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 77px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
+    background: url("../images/goldentemple.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: #daa520c4;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 85%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#cover-text>h2 {
+    color: #ffffff;
+}
+
+/* City info section */
+
+#why-amritsar {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#why-amritsar h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 175%;
+}
+
+#history-of-city > div, #culture-of-city > div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#history-of-city h2, #culture-of-city h2 {
+    text-align: center;
+}
+
+#city-info p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#city-info hr {
+    border-top: 1px solid #DAA520;
+    margin: 5px 0;
 }
 
 /*Footer */
@@ -114,13 +170,15 @@ main {
 }
 
 /* Media query: tablets and larger screens (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px
+) {
     /* Header */
     nav {
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
+        padding-right: 1rem;
     }   
     
     #menu {
@@ -145,10 +203,44 @@ main {
     main {
         margin-top: 58px;
     }
+
+    /* Hero */
+    #cover-text {
+        width: 475px;
+        min-height: 75px;
+    }
+
+    /* City info section */
+    #city-info {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #city-info > div {
+        flex: 1;
+    }
+
+    #history-of-city > div, #culture-of-city > div {
+        width: 90%;
+    }
+
+    #culture-of-city {
+        order: 1;
+    }
+
+    #history-of-city > div {
+        align-self: flex-start;
+    }
+
+    #culture-of-city > div {
+        align-self: flex-end;
+    }
 }
 
 /* Media query: laptops and desktops (992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px
+) {
     /* Header */
     #logo {
         font-size: 280%;
@@ -163,5 +255,10 @@ main {
     /* Main content */
     main {
         margin-top: 77px;
+    }
+
+    /* City info section */
+    #why-amritsar h1 {
+        font-size: 225%;
     }
 }

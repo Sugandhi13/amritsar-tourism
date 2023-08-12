@@ -98,7 +98,7 @@ main {
 }
 
 #cover-text {
-    background-color: #daa520c4;
+    background-color: #DAA520;
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -150,6 +150,7 @@ main {
 
 /* Attractions Page */
 #attractions h1 {
+    padding: 20px;
     font-size: 150%;
     text-align: center;
 }
@@ -300,8 +301,9 @@ main {
 
     /* Hero */
     #cover-text {
-        width: 475px;
+        width: 500px;
         min-height: 75px;
+        padding-left: 25px;
     }
 
     /* City info section */
@@ -333,7 +335,6 @@ main {
 
     /* Attraction Page */
     #attractions h1 {
-        padding: 20px;
         font-size: 200%;
     }
     
@@ -411,6 +412,10 @@ main {
     /* Main content */
     main {
         margin-top: 77px;
+    }
+
+    #hero {
+        height: 800px;
     }
 
     /* City info section */

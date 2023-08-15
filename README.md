@@ -20,6 +20,7 @@ To access live website [click here](https://sugandhi13.github.io/amritsar-touris
 - [Features](#features)
   - [Common Features](#common-features)
     - [Languages Used](#languages-used)
+    - [Favicon](#favicon)
     - [Navigation](#navigation)
       - [Web Version](#web-version)
       - [Mobile Version](#mobile-version)
@@ -75,6 +76,12 @@ Lastly we have used 'aquamarine' color to highlight the input box the user is in
 
 - HTML5
 - CSS3
+
+### Favicon
+
+Favicon is used in the website header to give the website more professional look and feel. 
+
+![Favicon-Image](assets/readme_images/faviconimage.jpg)
 
 ### Navigation
 

@@ -6,6 +6,26 @@ attractions and an opportunity to get in touch to request further information.
 
 To access live website [click here](https://sugandhi13.github.io/amritsar-tourism/).
 
+# Re-submission Comment
+
+I'm resubmitting this project as the media queries didn't behaved as expected during the evalution while checked by the examinar. 
+The major problem described by the reviewer that the site is not responsive across tested devices (desktop, mobile, and tablet). 
+On smaller devices the footer overlaps other content, and the text on the landing page is very hard to read across multiple columns. 
+Therefore the responsiveness severely hamper usability of the website. 
+
+Now I've learn't a bit more and have a better understanding than before when I initially started working on this project. 
+I've put my best efforts and used new methods and coding techniques I've learned in last few months in code insititute.
+
+I would like to give additional credits to new Love Running Project added by code institute create by Jo Heyndels. 
+This new course helped me to understand how to handle media query in a better way by focusing on mobile first development. 
+I have also learned a better way to use fontawesome website to create icons (social media or other types) from text 
+that blends well instead of images in web development. Lastly, I've understood now how to compress image without loosing its quality 
+much that helps to load images faster when web page loads as well as looks better without much distortions in the image.
+
+After redevelopment, I've performed all the testing on different browsers, laptop, tablet and mobiles etc. The results looks good to me 
+and meets my expectation. The footers are no more going over the text on small screens and navigation menu also handled in a better 
+way on big and small screens.
+
 ### Am I Responsive
 
 ![Am-I-Responsive](assets/readme_images/amiresponsiveimage.jpg)
@@ -13,6 +33,7 @@ To access live website [click here](https://sugandhi13.github.io/amritsar-touris
 # Table of contents
 
 - [Amritsar Tourism](#amritsar-tourism)
+- [Re-submission Comment](#re-submission-comment)
     - [Am I Responsive](#am-i-responsive)
 - [Table of contents](#table-of-contents)
 - [Design](#design)
@@ -22,24 +43,26 @@ To access live website [click here](https://sugandhi13.github.io/amritsar-touris
     - [Languages Used](#languages-used)
     - [Favicon](#favicon)
     - [Navigation](#navigation)
-      - [Web Version](#web-version)
+      - [Desktop Version](#desktop-version)
       - [Mobile Version](#mobile-version)
     - [Footer](#footer)
   - [Home Page](#home-page)
     - [Hero Image](#hero-image)
     - [Home Page](#home-page-1)
-      - [Web Version](#web-version-1)
+      - [Desktop Version](#desktop-version-1)
       - [Mobile Version](#mobile-version-1)
     - [Attractions Page](#attractions-page)
-      - [Web Version](#web-version-2)
+      - [Desktop Version](#desktop-version-2)
       - [Mobile Version](#mobile-version-2)
     - [Contact Us Page](#contact-us-page)
-      - [Web Version](#web-version-3)
+      - [Desktop Version](#desktop-version-3)
       - [Mobile Version](#mobile-version-3)
     - [Confirmation Page](#confirmation-page)
-      - [Web Version](#web-version-4)
+      - [Desktop Version](#desktop-version-4)
       - [Mobile Version](#mobile-version-4)
+    - [404 Page](#404-page)
 - [Testing](#testing)
+    - [Manual Testing](#manual-testing)
       - [Email Validation](#email-validation)
       - [Phone No Validation](#phone-no-validation)
 - [Validator Testing](#validator-testing)
@@ -57,7 +80,7 @@ To access live website [click here](https://sugandhi13.github.io/amritsar-touris
 - [Content](#content)
 - [Media](#media)
     - [Images](#images)
-    - [Google Map](#google-map)
+    - [Other Websites](#other-websites)
 
 # Design
 
@@ -79,18 +102,18 @@ Lastly we have used 'aquamarine' color to highlight the input box the user is in
 
 ### Favicon
 
-Favicon is used in the website header to give the website more professional look and feel. 
+Favicon is used in the website title to give the website more professional look and feel. 
 
 ![Favicon-Image](assets/readme_images/faviconimage.jpg)
 
 ### Navigation
 
 In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the 
-user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are 
-located under a button with the logo on small screens and populates when the user clicks on the button. 
+user to easily locate and use. The location of the navigation buttons can change with small (mobile) screens. The navigation menu is 
+located under a button near logo on small screens and populates when the user clicks on the button. 
 This section is same on all pages of website.
 
-#### Web Version
+#### Desktop Version
 
 ![Web-Navigation](assets/readme_images/webnavigation.jpg)
 
@@ -101,6 +124,7 @@ This section is same on all pages of website.
 ### Footer
 
 The footer section contains the links to social media sites (Facebook, Twitter, YouTube and Instagram). This section is same on all pages of website.
+The space between social media icons change with size of the screen.
 
 ![Footer](assets/readme_images/footer.jpg)
 
@@ -108,7 +132,7 @@ The footer section contains the links to social media sites (Facebook, Twitter, 
 
 ### Hero Image
 
-A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to 
+A Hero Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to 
 bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people 
 of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
 
@@ -127,7 +151,7 @@ into sections to make it easy to read. This section has been kept simple and to 
 - **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
 - **Shopping** : This section has information on all kind of shopping options available in the city.
 
-#### Web Version
+#### Desktop Version
 
 ![Web-Index-Page1](assets/readme_images/webindexpage1.jpg)
 ![Web-Index-Page2](assets/readme_images/webindexpage2.jpg)
@@ -142,7 +166,7 @@ The attractions page provides images of top attactions in amritsar, some of whic
 I thought it was important to let people have some idea about how these places looks and feel to make an informed decision 
 as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
 
-#### Web Version
+#### Desktop Version
 
 ![Web-Attractions-Page](assets/readme_images/webattractionspage.jpg)
 
@@ -156,7 +180,7 @@ This page allows provide an opportunity to the user to get in contact with the g
 visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate 
 palces of city without leaving the website.
 
-#### Web Version
+#### Desktop Version
 
 ![Web-Contactus-Page](assets/readme_images/webcontactuspage.jpg)
 
@@ -169,13 +193,21 @@ palces of city without leaving the website.
 The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation 
 that there information has been submitted.
 
-#### Web Version
+#### Desktop Version
 
 ![Web-Confirmation-Page](assets/readme_images/webconfirmationpage.jpg)
 
 #### Mobile Version
 
 ![Mobile-Confirmation-Page1](assets/readme_images/mobileconfirmationpage.jpg)
+
+### 404 Page
+
+The 404 (Error) page has been created for defensive design. It notifies the user with the following message: 
+"Oops! Nothing to see here! Go back to the homepage". The word "homepage" is clickable and redirects 
+the user to the landing (index.html) page of the website.
+
+![404-Page](assets/readme_images/404page.jpg)
 
 # Testing
 
@@ -195,6 +227,34 @@ alignments of navigation menu and footer elements. I've tried my best to fix the
 Henceforth, applying media queries has been the biggest challenge during this project.
 
 Some improvements are done on different HTML pages after testing them on W3C Validator.
+
+**UPDATE**
+
+I'm resubmitting this project as the media queries didn't behaved as expected during the evalution by the examinar. 
+Now I've learn't a bit more and have a bit better understanding than before when I initially started working on this project. 
+I've put my best efforts and used new methods and coding techniques I've learned in last few months in code insititute.
+
+I would like to give additional credits to new Love Running Project added by code institute create by Jo Heyndels. 
+This new course helped me to understand how to handle media query in a better way by focusing on mobile first development. 
+I have also learned a better way to use fontawesome website to create icons (social media or other types) from text 
+that blends well instead of images in web development. Lastly, I've understood now how to compress image without loosing its quality 
+much that helps to load images faster when web page loads as well as looks better without much distortions in the image.
+
+After redevelopment, I've performed all the testing on different browsers, laptop, tablet and mobiles etc. The results looks good to me
+and meets my expectation. The footers are no more going over the text on small screens and navigation menu also handled in a better
+way on big and small screens.
+
+### Manual Testing
+| Test Case | Expected Results | Results |
+| ----------- | ----------- | ----------- |
+| Open Website using the link provided | Amritsar Toursim website homepage (index.html) should open without any overlapping on text, images, navigation menu or social media icons. Also the layout should change and adjust itself when changing the screensize from small to big or vice-versa. | As Expected |
+| Click on the attractions link from navigation bar | Attractions page should open up without any overlapping on text, images, navigation menu or social media icons and all images should be well presented without any distortion or streching. Also the layout should change and adjust itself when changing the screensize from small to big or vice-versa. | As Expected |
+| Click on the contact-us link from navigation bar | Contact-Us page should open up without any overlapping on text, map, form, navigation menu or social media icons. Also the layout should change and adjust itself when changing the screensize from small to big or vice-versa. | As Expected |
+| Enter wrong email address in contact-us form | An error message should display if the email id doesn't provided in the required email format | As Expected |
+| Enter Text or leave blank phone number in contact-us form | An error message should display if the user try to leave it blank and it should not allow to enter alphbets | As Expected |
+| Leave any field of contact us form blank | All fields are mandatory to fill, an error message should populate if any field of the form is left blank. | As Expected |
+| Click on Submit button on Contact us form after filling required details | A confirmation page should open up and congratulate the user that the information provided has been submitted successfully | As Expected |
+| Error (404) Page  | When a user enter an incorrect address of the website. Page 404.html should publish and inform user that no such webpage exsit and contains link to route user to home page | As Expected |
 
 #### Email Validation
 
@@ -236,11 +296,11 @@ No errors were found when passing through the official W3C CSS (Jigsaw) validato
 
 The page achieved great performance on mobile and desktop.
 
-- **Desktop**:
+- **Desktop Version**:
   
   ![Lighhouse-Report-Desktop](assets/readme_images/lighthousereportdesktop.jpg)
 
-- **Mobile**:
+- **Mobile Version**:
   
   ![Lighhouse-Report-Mobile](assets/readme_images/lighthousereportmobile.jpg)
 
@@ -250,6 +310,18 @@ I've struggled with Media queries and how to handle website on different devices
 borwsers but have issues with alignments on other media devices.
 
 I will try to improve further on this in coming days and considering it as a challenge to handle.
+
+**UPDATE**
+
+I'm resubmitting this project due to the above unfixed bugs. Now I've learn't a bit more and have a bit better understanding than before when 
+I initially started working on this project. I've put my best efforts and used new methods and coding techniques I've learned in last few months
+in code insititute.
+
+After redevelopment I faced following warning on index.html and attractions.html page. The warning states to avoide using h1 tag multiple times 
+on a webpage as its only for top-level headings. I've fixed this by using h2 or h3 tags and managing the font-size from css to make my text look
+as I expected it should be without having this waring in W3C validator. 
+
+Hence, I don't have any known bug as per my understanding left in this project.
 
 ![Warning-in-coding](assets/readme_images/warningonindexpage.jpg)
 
@@ -263,6 +335,10 @@ I will try to improve further on this in coming days and considering it as a cha
 - **Am I Responsive**: To ensure website looks good on different devices
 - **W3C Validator**: To validate HMTL pages
 - **W3C CSS Validator**: To validte CSS
+- **Favicon**: To create the favicon for title of the website
+- **Fontawesome**: To create social media and other icons used for various section on each page of the website
+- **Tinypng**: To compress the images that helps to load faster on the web
+- **Google Map**: To create Google Map API and used on contact us page
 
 # Deployment
 
@@ -288,6 +364,10 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 - From the Love Running Project, I took inspiration for the header, hero banner, footer and form.
 - Wikipedia and Punjab Tourism websites, I have referred these website to create content on my website.
 
+I would like to give additional credits to new Love Running Project added by code institute create by Jo Heyndels. This new course helped me to understand
+how to handle media query in a better way by focusing on mobile first development. I have also learned a better way to use fontawesome website to create 
+icons (social media or other types) from text that blends well instead of images in web development.
+
 # Content
 
 Following websites have been referred to generate the content on Home page along with some sentences included/modified 
@@ -303,17 +383,21 @@ by me to best fit in websites context.
 
 Various websites are referred to collect images used in this website. Original source links can be found below.
 
-- Main Image - [holidify.com](https://www.holidify.com/places/amritsar/sightseeing-and-things-to-do.html)
-- Gobindgarh Fort Image - [holidify.com](https://www.holidify.com/places/amritsar/gobindgarh-fort-sightseeing-120918.html)
-- Confirmation Page Image - [historypak.com](https://historypak.com/punjabi-culture-2/)
+- Hero Image - [unsplash.com](https://unsplash.com/s/photos/golden-temple)
+- Wagha Image - [unsplash.com](https://unsplash.com/@gabography)
+- Maharaja Ranjit Singh Image - [unsplash.com](https://unsplash.com/photos/bdWNnJP8_oA)
+- Gobindgarh Fort Image - [fortgobindgarh.com](https://www.fortgobindgarh.com/gallery.php)
 - Ram Tirath Image - [ffo.gov.in](https://ffo.gov.in/locations/location-information/69)
-- Maharaja Ranjit Singh Muesum Image - [mouthshut.com](https://www.mouthshut.com/product-reviews/Maharaja-Ranjit-Singh-Museum-Amritsar-Photos-925078676)
 - Sadda Pind Image - [googleusercontent.com](https://lh5.googleusercontent.com/p/AF1QipP6i60UYzdaQdFCtZVGE9TcA-7UzIQUYu8YjXRw=w600-h321-p-k-no)
 - Durgiana Temple Image - [googleusercontent.com](https://lh3.googleusercontent.com/proxy/kcFhudzDfjqLkTJbn-SGOG-50LFYbPNc3HZoYVAjLY442AyfMRXRlicCZyBHK2mlF8K9zPG-JafBTyOhTu4HWQjvv-cImvv_xTvNkBZXCQcbxGZ-grX7Vm-hq5WHR-n5a5ruIT740JhPa6k2sB_u2gobanyMOg=s680-w680-h510)
-- Some Images on Attractions Page - [fabhotels.com](https://www.fabhotels.com/blog/historical-places-in-amritsar/)
+- Jallianwala Bagh Image - [stockvault.net](https://www.stockvault.net/free-photos/Jallianwala-Bagh/)
+- Sikha boy and Fields Image - [pixabay.com](https://pixabay.com/photos/sikh-religion-sikhism-punjab-holy-658521/)
+- Confirmation Page Image - [historypak.com](https://historypak.com/punjabi-culture-2/)
 
-### Google Map
-
-Google Map API is created and used from Google maps.
+### Other Websites
 
 - Google Map API - [maps.google.com](https://goo.gl/maps/g1H9qGUC1iNNKUoq8)
+- Favicon - [favicon.io](https://favicon.io/)
+- Fontawesome - [fontawesome.com](https://fontawesome.com/)
+- Tinypng - [tinypng.com](https://tinypng.com/)
+- Unsplash - [unsplash.com](https://unsplash.com/)

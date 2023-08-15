@@ -21,16 +21,32 @@ To access live website [click here](https://sugandhi13.github.io/amritsar-touris
   - [Common Features](#common-features)
     - [Languages Used](#languages-used)
     - [Navigation](#navigation)
+      - [Web Version](#web-version)
+      - [Mobile Version](#mobile-version)
     - [Footer](#footer)
   - [Home Page](#home-page)
     - [Hero Image](#hero-image)
     - [Home Page](#home-page-1)
+      - [Web Version](#web-version-1)
+      - [Mobile Version](#mobile-version-1)
     - [Attractions Page](#attractions-page)
+      - [Web Version](#web-version-2)
+      - [Mobile Version](#mobile-version-2)
     - [Contact Us Page](#contact-us-page)
+      - [Web Version](#web-version-3)
+      - [Mobile Version](#mobile-version-3)
     - [Confirmation Page](#confirmation-page)
+      - [Web Version](#web-version-4)
+      - [Mobile Version](#mobile-version-4)
 - [Testing](#testing)
+      - [Email Validation](#email-validation)
+      - [Phone No Validation](#phone-no-validation)
 - [Validator Testing](#validator-testing)
     - [HTML](#html)
+      - [Index Page Validation](#index-page-validation)
+      - [Attractions Page Validation](#attractions-page-validation)
+      - [Contact-Us Page Validation](#contact-us-page-validation)
+      - [Confirmation Page Validation](#confirmation-page-validation)
     - [CSS](#css)
     - [Lighthouse](#lighthouse)
 - [Unfixed Bugs](#unfixed-bugs)
@@ -67,11 +83,11 @@ user to easily locate and use. The location of the navigation buttons can change
 located under a button with the logo on small screens and populates when the user clicks on the button. 
 This section is same on all pages of website.
 
-- **Web Version**
+#### Web Version
 
 ![Web-Navigation](assets/readme_images/webnavigation.jpg)
 
-- **Mobile Version**
+#### Mobile Version
 
 ![Mobile-Navigation](assets/readme_images/mobilenavigation.jpg)
 
@@ -104,14 +120,14 @@ into sections to make it easy to read. This section has been kept simple and to 
 - **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
 - **Shopping** : This section has information on all kind of shopping options available in the city.
 
-- **Web Version**
+#### Web Version
 
 ![Web-Index-Page1](assets/readme_images/webindexpage1.jpg)
 ![Web-Index-Page2](assets/readme_images/webindexpage2.jpg)
 
-- **Mobile Version**
+#### Mobile Version
 
-![Mobile-Index-Page1](assets/readme_images/mobileindexpage1.jpg)![Mobile-Index-Page2](assets/readme_images/mobileindexpage2.jpg)![Mobile-Index-Page3](assets/readme_images/mobileindexpage3.jpg)
+![Mobile-Index-Page1](assets/readme_images/mobileindexpage1.jpg)![Mobile-Index-Page2](assets/readme_images/mobileindexpage2.jpg)
 
 ### Attractions Page
 
@@ -119,8 +135,13 @@ The attractions page provides images of top attactions in amritsar, some of whic
 I thought it was important to let people have some idea about how these places looks and feel to make an informed decision 
 as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
 
-![Attractions-1](assets/images/attractions1.jpg)
-![Attractions-2](assets/images/attractions2.jpg)
+#### Web Version
+
+![Web-Attractions-Page](assets/readme_images/webattractionspage.jpg)
+
+#### Mobile Version
+
+![Mobile-Attractions-Page](assets/readme_images/mobileattractionspage1.jpg)
 
 ### Contact Us Page
 
@@ -128,14 +149,26 @@ This page allows provide an opportunity to the user to get in contact with the g
 visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate 
 palces of city without leaving the website.
 
-![Contact-Us](assets/images/contactus.jpg)
+#### Web Version
+
+![Web-Contactus-Page](assets/readme_images/webcontactuspage.jpg)
+
+#### Mobile Version
+
+![Mobile-Contactus-Page1](assets/readme_images/mobilecontactus1.jpg)![Mobile-Contactus-Page2](assets/readme_images/mobilecontactus2.jpg)
 
 ### Confirmation Page
 
 The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation 
 that there information has been submitted.
 
-![Confirmation](assets/images/confirmation.jpg)
+#### Web Version
+
+![Web-Confirmation-Page](assets/readme_images/webconfirmationpage.jpg)
+
+#### Mobile Version
+
+![Mobile-Confirmation-Page1](assets/readme_images/mobileconfirmationpage.jpg)
 
 # Testing
 
@@ -156,19 +189,41 @@ Henceforth, applying media queries has been the biggest challenge during this pr
 
 Some improvements are done on different HTML pages after testing them on W3C Validator.
 
+#### Email Validation
+
+![Email-Validation](assets/readme_images/emaliaddressvalidationerror.jpg)
+
+#### Phone No Validation
+
+![Phoneno-Validation](assets/readme_images/phonenumbervalidationerror.jpg)
+
 # Validator Testing
 
 ### HTML
 
 No errors were returned when passing through the official W3C validator.
 
-![HTML](assets/images/w3cvalidatorresults.jpg)
+#### Index Page Validation
+
+![HTML-Index-Page-Validation](assets/readme_images/htmlvalidationindexpage.jpg)
+
+#### Attractions Page Validation
+
+![HTML-Attractions-Page-Validation](assets/readme_images/htmlvalidationattractionspage.jpg)
+
+#### Contact-Us Page Validation
+
+![HTML-Contactus-Page-Validation](assets/readme_images/htmlvalidationcontactuspage.jpg)
+
+#### Confirmation Page Validation
+
+![HTML-Confirmation-Page-Validation](assets/readme_images/htmlvalidationconfirmationpage.jpg)
 
 ### CSS
 
 No errors were found when passing through the official W3C CSS (Jigsaw) validator.
 
-![css](assets/images/cssvalidatorresults.jpg)
+![css](assets/readme_images/cssvalidatorresults.jpg)
 
 ### Lighthouse
 
@@ -176,11 +231,11 @@ The page achieved great performance on mobile and desktop.
 
 - **Desktop**:
   
-  ![Desktop](assets/images/lighthousereportdesktop.jpg)
+  ![Lighhouse-Report-Desktop](assets/readme_images/lighthousereportdesktop.jpg)
 
 - **Mobile**:
   
-  ![Mobile](assets/images/lighthousereportmobile.jpg)
+  ![Lighhouse-Report-Mobile](assets/readme_images/lighthousereportmobile.jpg)
 
 # Unfixed Bugs
 
@@ -188,6 +243,8 @@ I've struggled with Media queries and how to handle website on different devices
 borwsers but have issues with alignments on other media devices.
 
 I will try to improve further on this in coming days and considering it as a challenge to handle.
+
+![Warning-in-coding](assets/readme_images/warningonindexpage.jpg)
 
 # Libraries & Programs Used
 

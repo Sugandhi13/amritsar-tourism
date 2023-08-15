@@ -127,7 +127,7 @@ into sections to make it easy to read. This section has been kept simple and to 
 
 #### Mobile Version
 
-![Mobile-Index-Page1](assets/readme_images/mobileindexpage1.jpg)![Mobile-Index-Page2](assets/readme_images/mobileindexpage2.jpg)
+![Mobile-Index-Page1](assets/readme_images/mobileindexpage1.jpg) ![Mobile-Index-Page2](assets/readme_images/mobileindexpage2.jpg)
 
 ### Attractions Page
 
@@ -141,7 +141,7 @@ as well as attract them by showing beauty of the city. Screenshots of these sect
 
 #### Mobile Version
 
-![Mobile-Attractions-Page](assets/readme_images/mobileattractionspage1.jpg)
+![Mobile-Attractions-Page1](assets/readme_images/mobileattractionspage1.jpg) ![Mobile-Attractions-Page2](assets/readme_images/mobileattractionspage2.jpg)
 
 ### Contact Us Page
 
@@ -155,7 +155,7 @@ palces of city without leaving the website.
 
 #### Mobile Version
 
-![Mobile-Contactus-Page1](assets/readme_images/mobilecontactus1.jpg)![Mobile-Contactus-Page2](assets/readme_images/mobilecontactus2.jpg)
+![Mobile-Contactus-Page1](assets/readme_images/mobilecontactus1.jpg) ![Mobile-Contactus-Page2](assets/readme_images/mobilecontactus2.jpg)
 
 ### Confirmation Page
 

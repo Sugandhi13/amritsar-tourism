@@ -4,9 +4,16 @@ Amritsar Tourism project is developed with idea of creating a website for people
 and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist 
 attractions and an opportunity to get in touch to request further information.
 
+To access live website [click here](https://sugandhi13.github.io/amritsar-tourism/).
+
+### Am I Responsive
+
+![Am-I-Responsive](assets/readme_images/amiresponsiveimage.jpg)
+
 # Table of contents
 
 - [Amritsar Tourism](#amritsar-tourism)
+    - [Am I Responsive](#am-i-responsive)
 - [Table of contents](#table-of-contents)
 - [Design](#design)
     - [Text \& Background color](#text--background-color)
@@ -16,7 +23,7 @@ attractions and an opportunity to get in touch to request further information.
     - [Navigation](#navigation)
     - [Footer](#footer)
   - [Home Page](#home-page)
-    - [Main Image](#main-image)
+    - [Hero Image](#hero-image)
     - [Home Page](#home-page-1)
     - [Attractions Page](#attractions-page)
     - [Contact Us Page](#contact-us-page)
@@ -60,23 +67,29 @@ user to easily locate and use. The location of the navigation buttons can change
 located under a button with the logo on small screens and populates when the user clicks on the button. 
 This section is same on all pages of website.
 
-![Navigation](assets/images/navigation.jpg)
+- **Web Version**
+
+![Web-Navigation](assets/readme_images/webnavigation.jpg)
+
+- **Mobile Version**
+
+![Mobile-Navigation](assets/readme_images/mobilenavigation.jpg)
 
 ### Footer
 
 The footer section contains the links to social media sites (Facebook, Twitter, YouTube and Instagram). This section is same on all pages of website.
 
-![Footer](assets/images/footer.jpg)
+![Footer](assets/readme_images/footer.jpg)
 
 ## Home Page
 
-### Main Image
+### Hero Image
 
 A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to 
 bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people 
 of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
 
-![Main-Image](assets/images/mainimage.jpg)
+![Hero-Image](assets/readme_images/heroimage.jpg)
 
 ### Home Page
 
@@ -91,7 +104,14 @@ into sections to make it easy to read. This section has been kept simple and to 
 - **Tasty Food** : This section show all the different varities of deleciuos food a use can experience on his visit.
 - **Shopping** : This section has information on all kind of shopping options available in the city.
 
-![About-City](assets/images/whyamritsar.jpg)
+- **Web Version**
+
+![Web-Index-Page1](assets/readme_images/webindexpage1.jpg)
+![Web-Index-Page2](assets/readme_images/webindexpage2.jpg)
+
+- **Mobile Version**
+
+![Mobile-Index-Page1](assets/readme_images/mobileindexpage1.jpg)![Mobile-Index-Page2](assets/readme_images/mobileindexpage2.jpg)![Mobile-Index-Page3](assets/readme_images/mobileindexpage3.jpg)
 
 ### Attractions Page
 

@@ -119,7 +119,7 @@ main {
     margin: 20px auto;
 }
 
-#why-amritsar h1 {
+#why-amritsar h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 175%;
@@ -130,12 +130,14 @@ main {
     margin-bottom: 20px;
 }
 
-#history-of-city h2 {
+#history-of-city h3 {
     text-align: left;
+    font-size: 130%;
 }
 
-#culture-of-city h2 {
+#culture-of-city h3 {
     text-align: right;
+    font-size: 130%;
 }
 
 #city-info p {
@@ -149,9 +151,9 @@ main {
 }
 
 /* Attractions Page */
-#attractions h1 {
+#attractions h2 {
     padding: 20px;
-    font-size: 150%;
+    font-size: 175%;
     text-align: center;
 }
 
@@ -307,6 +309,10 @@ main {
     }
 
     /* City info section */
+    #why-amritsar h2 {
+        font-size: 225%;
+    }
+
     #city-info {
         display: flex;
         flex-direction: row;
@@ -333,8 +339,16 @@ main {
         align-self: flex-end;
     }
 
+    #history-of-city h3 {
+        font-size: 150%;
+    }
+
+    #culture-of-city h3 {
+        font-size: 150%;
+    }
+
     /* Attraction Page */
-    #attractions h1 {
+    #attractions h2 {
         font-size: 200%;
     }
     
@@ -416,11 +430,6 @@ main {
 
     #hero {
         height: 800px;
-    }
-
-    /* City info section */
-    #why-amritsar h1 {
-        font-size: 225%;
     }
 
     /* Attraction Page */

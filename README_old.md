@@ -1,8 +1,6 @@
 # Amritsar Tourism
 
-Amritsar Tourism project is developed with idea of creating a website for people who are interested in Visiting Amritsar for Vacation or Explore the city 
-and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist 
-attractions and an opportunity to get in touch to request further information.
+Amritsar Tourism project is developed with idea of creating a website for people who are interested in Visiting Amritsar for Vacation or Explore the city and its rich culture and history. The purpose of the website is to provide some general information about Amritsar in general and highlight its top tourist attractions and an opportunity to get in touch to request further information.
 
 # Table of contents
 
@@ -39,9 +37,7 @@ attractions and an opportunity to get in touch to request further information.
 
 ### Text & Background color
 
-Amritsar City is also called as Golden City. Hence, color them of my website is to based upon Gold and White colors contrast. 
-We have choosen background color for header and footer 'antiquewhite' to provide some contrast from the main sections. 
-All heading have Goldern (#DAA520) text color. Main website background is of white color with text color of 'darkgoldenrod'.
+Amritsar City is also called as Golden City. Hence, color them of my website is to based upon Gold and White colors contrast. We have choosen background color for header and footer 'antiquewhite' to provide some contrast from the main sections. All heading have Goldern (#DAA520) text color. Main website background is of white color with text color of 'darkgoldenrod'.
 
 # Features
 
@@ -54,9 +50,7 @@ All heading have Goldern (#DAA520) text color. Main website background is of whi
 
 ### Navigation
 
-In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the 
-user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are 
-located under the logo on small screens. This section is same on all pages of website.
+In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are located under the logo on small screens. This section is same on all pages of website.
 
 ![Navigation](assets/images/navigation.jpg)
 
@@ -70,17 +64,13 @@ The footer section contains the links to social media sites (Facebook, Twitter, 
 
 ### Main Image
 
-A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to 
-bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people 
-of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
+A Main Image is used on the Home Page below header. The text over the Hero Image, 'Amritsar - The Holy City', has been added to bottom-left part of image and has been included to improve the design. 'Amritsar - The Holy City' is tagline in context of people of Sikh relegion. As Amritsar has one of the prime worship place for Sikh's called as Golden Temple.
 
 ![Main-Image](assets/images/mainimage.jpg)
 
 ### Home Page
 
-This page provides the information a user require to know some basic facts about Amritsar and its rich history and culture. 
-Each of the section desribe a different fact about city a user should know to make informative decision. This have been broken 
-into sections to make it easy to read. This section has been kept simple and to the point.
+This page provides the information a user require to know some basic facts about Amritsar and its rich history and culture. Each of the section desribe a different fact about city a user should know to make informative decision. This have been broken into sections to make it easy to read. This section has been kept simple and to the point.
 
 - **About City** : This section contains basic information about the Amritsar city like who and when this city was founded.
 - **Rich History** : This section desribe about rish historical aspect of the city.
@@ -93,42 +83,32 @@ into sections to make it easy to read. This section has been kept simple and to 
 
 ### Attractions Page
 
-The attractions page provides images of top attactions in amritsar, some of which we have also talked about on Home Page. 
-I thought it was important to let people have some idea about how these places looks and feel to make an informed decision 
-as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
+The attractions page provides images of top attactions in amritsar, some of which we have also talked about on Home Page. I thought it was important to let people have some idea about how these places looks and feel to make an informed decision as well as attract them by showing beauty of the city. Screenshots of these sections have been provided below.
 
 ![Attractions-1](assets/images/attractions1.jpg)
 ![Attractions-2](assets/images/attractions2.jpg)
 
 ### Contact Us Page
 
-This page allows provide an opportunity to the user to get in contact with the group if they have any further queries about 
-visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate 
-palces of city without leaving the website.
+This page allows provide an opportunity to the user to get in contact with the group if they have any further queries about visiting/exploring Amritsar city. I've also used the Google Map API to link the Amritsar city map. It can help user to locate palces of city without leaving the website.
 
 ![Contact-Us](assets/images/contactus.jpg)
 
 ### Confirmation Page
 
-The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation 
-that there information has been submitted.
+The Confirmation page has been created to Congratulate the use to reach us for further information. Also, it provides the confirmation that there information has been submitted.
 
 ![Confirmation](assets/images/confirmation.jpg)
 
 # Testing
 
-The site has been tested on a variety of mobile devices as well as different web browsers (Chrome, Firefox, Safari) and all links, 
-images and the contact form functioned as it should. All input fields of the contact form function correctly, and require the requested 
-input fields before submitting.
+The site has been tested on a variety of mobile devices as well as different web browsers (Chrome, Firefox, Safari) and all links, images and the contact form functioned as it should. All input fields of the contact form function correctly, and require the requested input fields before submitting.
 
-I personally tested the site extensively with Google Chrome dev tools to ensure the site works responsively not only on mobile devices 
-but also on medium to larger screens.
+I personally tested the site extensively with Google Chrome dev tools to ensure the site works responsively not only on mobile devices but also on medium to larger screens.
 
-One of the biggest problems I encountered from the beginning handling css on different webpages. Then I took help from Love running 
-project as well as w3school and stackoverflow websites (mentioned in credits as well).
+One of the biggest problems I encountered from the beginning handling css on different webpages. Then I took help from Love running project as well as w3school and stackoverflow websites (mentioned in credits as well).
 
-Another issue I faced is how to handle cover-text on main image when switching from desktop browsers to mobile browsers as well as 
-alignments of navigation menu and footer elements. I've tried my best to fix these issues.
+Another issue I faced is how to handle cover-text on main image when switching from desktop browsers to mobile browsers as well as alignments of navigation menu and footer elements. I've tried my best to fix these issues.
 
 Henceforth, applying media queries has been the biggest challenge during this project.
 
@@ -162,8 +142,7 @@ The page achieved great performance on mobile and desktop.
 
 # Unfixed Bugs
 
-I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop 
-borwsers but have issues with alignments on other media devices.
+I've struggled with Media queries and how to handle website on different devices. This website currently looks great on desktop borwsers but have issues with alignments on other media devices.
 
 I will try to improve further on this in coming days and considering it as a challenge to handle.
 
@@ -192,9 +171,7 @@ The site is deployed to GitHub pages. The steps to deploy are as follows:
 
 # Credits
 
-I have really enjoyed the Code Institute course up till now, and I am looking forward to the next units of the course. 
-I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with 
-this project and assurances that creating a website is not as scary as I initially thought.
+I have really enjoyed the Code Institute course up till now, and I am looking forward to the next units of the course. I wanted to thank the Slack Community for their support learning the content and my Mentor Martina for her guidance with this project and assurances that creating a website is not as scary as I initially thought.
 
 As a starting point I looked at the Coders Coffee and Love Running projects.
 
@@ -204,8 +181,7 @@ As a starting point I looked at the Coders Coffee and Love Running projects.
 
 # Content
 
-Following websites have been referred to generate the content on Home page along with some sentences included/modified 
-by me to best fit in websites context.
+Following websites have been referred to generate the content on Home page along with some sentences included/modified by me to best fit in websites context.
 
 - [punjabtourism.punjab.gov.in](https://punjabtourism.punjab.gov.in/destination-amritsar.php)
 - [wikipedia.org](https://en.wikipedia.org/wiki/Amritsar)

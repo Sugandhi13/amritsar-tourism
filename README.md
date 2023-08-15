@@ -26,6 +26,8 @@ After redevelopment, I've performed all the testing on different browsers, lapto
 and meets my expectation. The footers are no more going over the text on small screens and navigation menu also handled in a better 
 way on big and small screens.
 
+I've created an archive folder and kept the all old files (html and css) in that folder.
+
 ### Am I Responsive
 
 ![Am-I-Responsive](assets/readme_images/amiresponsiveimage.jpg)

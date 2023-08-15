@@ -62,6 +62,7 @@ way on big and small screens.
       - [Mobile Version](#mobile-version-4)
     - [404 Page](#404-page)
 - [Testing](#testing)
+    - [UPDATE](#update)
     - [Manual Testing](#manual-testing)
       - [Email Validation](#email-validation)
       - [Phone No Validation](#phone-no-validation)
@@ -73,7 +74,10 @@ way on big and small screens.
       - [Confirmation Page Validation](#confirmation-page-validation)
     - [CSS](#css)
     - [Lighthouse](#lighthouse)
+      - [Desktop Version](#desktop-version-5)
+      - [Mobile Version](#mobile-version-5)
 - [Unfixed Bugs](#unfixed-bugs)
+    - [UPDATE](#update-1)
 - [Libraries \& Programs Used](#libraries--programs-used)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -228,7 +232,7 @@ Henceforth, applying media queries has been the biggest challenge during this pr
 
 Some improvements are done on different HTML pages after testing them on W3C Validator.
 
-**UPDATE**
+### UPDATE
 
 I'm resubmitting this project as the media queries didn't behaved as expected during the evalution by the examinar. 
 Now I've learn't a bit more and have a bit better understanding than before when I initially started working on this project. 
@@ -245,6 +249,7 @@ and meets my expectation. The footers are no more going over the text on small s
 way on big and small screens.
 
 ### Manual Testing
+
 | Test Case | Expected Results | Results |
 | ----------- | ----------- | ----------- |
 | Open Website using the link provided | Amritsar Toursim website homepage (index.html) should open without any overlapping on text, images, navigation menu or social media icons. Also the layout should change and adjust itself when changing the screensize from small to big or vice-versa. | As Expected |
@@ -296,11 +301,11 @@ No errors were found when passing through the official W3C CSS (Jigsaw) validato
 
 The page achieved great performance on mobile and desktop.
 
-- **Desktop Version**:
+#### Desktop Version
   
   ![Lighhouse-Report-Desktop](assets/readme_images/lighthousereportdesktop.jpg)
 
-- **Mobile Version**:
+#### Mobile Version
   
   ![Lighhouse-Report-Mobile](assets/readme_images/lighthousereportmobile.jpg)
 
@@ -311,7 +316,7 @@ borwsers but have issues with alignments on other media devices.
 
 I will try to improve further on this in coming days and considering it as a challenge to handle.
 
-**UPDATE**
+### UPDATE
 
 I'm resubmitting this project due to the above unfixed bugs. Now I've learn't a bit more and have a bit better understanding than before when 
 I initially started working on this project. I've put my best efforts and used new methods and coding techniques I've learned in last few months

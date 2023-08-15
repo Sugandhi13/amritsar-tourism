@@ -41,7 +41,8 @@ attractions and an opportunity to get in touch to request further information.
 
 Amritsar City is also called as Golden City. Hence, color them of my website is to based upon Gold and White colors contrast. 
 We have choosen background color for header and footer 'antiquewhite' to provide some contrast from the main sections. 
-All heading have Goldern (#DAA520) text color. Main website background is of white color with text color of 'darkgoldenrod'.
+All headings have Golden (#DAA520) text color. Main website background is of white color with text color of Golden (#DAA520).
+Lastly we have used 'aquamarine' color to highlight the input box the user is in on Contact us form.
 
 # Features
 
@@ -56,7 +57,8 @@ All heading have Goldern (#DAA520) text color. Main website background is of whi
 
 In my website 3 navigation buttons (one per page) have been provided in the top right section of the header to allow for the 
 user to easily locate and use. The location of the navigation buttons can change with small screens. The navigation button are 
-located under the logo on small screens. This section is same on all pages of website.
+located under a button with the logo on small screens and populates when the user clicks on the button. 
+This section is same on all pages of website.
 
 ![Navigation](assets/images/navigation.jpg)
 
